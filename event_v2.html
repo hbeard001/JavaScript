@@ -1,0 +1,21 @@
+<html>
+<script>
+    let a=10
+function dosomething(){
+    if(event.ctrlkey){}
+             a+=1
+    if(event.altkey){
+            a-=1
+    }
+    console.log(event.ctrlkey+"......"+event.altkey)
+    s.style.top=event.clientY
+    s.style.left=event.clientX
+    s.style.fontSize=a
+    
+}
+    
+</script>
+    <body onmousemove="dosomething()">
+    Mr.<span id="s" style="position:absolute;top:200;left:600"> Haydn</span>
+</body>
+</html>

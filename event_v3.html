@@ -1,0 +1,19 @@
+<html>
+<script>
+    let size=10
+function dosomething(){
+    alert(event.keyCode)
+    if(event.ctrlkey){
+        size++;
+    }
+    if(event.altkey){
+        size--;
+    }
+    s.style.fontSize=size
+}
+    
+</script>
+    <body onkeydown="dosomething()">
+    Mr.<span id="s" style="position:absolute;top:0;left:0"> Haydn</span>
+</body>
+</html>
